@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #283618;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text p{
+    text-align: center;
+    font-weight: 500;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    padding-top: 3rem;
+    color: #fefae0;
+
+}
+
+.text h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fefae0;
+}
+
+.CTA {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding-top: 4rem;
+}
+
+.CTA input{
+    padding: 0.7rem 1.5rem;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    border: 2px solid #606c38;
+    align-self: center;
+}
+
+.CTA input[type="number"]:focus {
+    outline: none;
+    border: 2px solid #606c38;
+}
+
+.CTA button {
+    background-color: #fefae0;
+    color: #283618;
+    padding: 0.4rem 1.5rem;
+    border-radius: 100px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    border: 2px solid #606c38;
+    cursor: pointer;
+    box-shadow: rgba(0,0,0,.3) 0 5px 10px;
+
+}
+
+.CTA button:hover {
+    background-color: #bdbaa5;
+}
+
+.CTA button:active {
+    transform: scale(0.98);
+}
+
+.aviso {
+    padding-top: 2rem;
+}
+
+.aviso p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
